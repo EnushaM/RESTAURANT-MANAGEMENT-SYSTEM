@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    font-family: sans-serif;
+}
+.btn{
+    background-color: #800000;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 7px 10px 12px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    transform: scale(1.03);
+    box-shadow: 10px 12px 15px rgba(0,0,0,0.3); 
+}
+
+.heading{
+    text-align: center;
+    width: 90%;
+    margin:0 auto;
+    padding:0 .5rem;
+    padding-top: 6rem;
+    box-shadow: 0 .2rem .05rem rgba(0,0,0,.3);
+}
+
+.heading span{
+    display: inline-block;
+    font-size: 3.5rem;
+    color:#800000;
+    padding:1rem 0;
+    box-shadow: 0 .2rem .05rem #800000;
+}
+.about{
+    min-height: 100vh;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 2rem;
+    overflow-x: hidden;
+}
+
+.about .row .image img{
+    width: 30rem;
+    filter: drop-shadow(.5rem .5rem .5rem rgba(0,0,0,.3));
+}
+
+.about .row .content{
+    padding:1rem;
+}
+
+.about .row .content h3{
+    font-size: 3.5rem;
+    color:#800000;
+}
+
+.about .row .content p{
+    font-size: 2rem;
+    color:#093300;
+    padding:1rem 0;
+}
+
+.about .row .content .btn{
+    background-color: #800000;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 7px 10px 12px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+}
+
+.about .row .content .btn:hover{
+    transform: scale(1.03);
+    box-shadow: 10px 12px 15px rgba(0,0,0,0.3); 
+}

@@ -1,0 +1,72 @@
+*{
+	padding: 0;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #093300;
+	letter-spacing: 1px;
+}
+.details{
+	background: transparent;
+	margin: 200px;
+	box-shadow:10px 15px 20px rgba(0,0,0,0.1);
+	display: grid;
+	grid-template-columns: 40% 60%; 
+}
+.time{
+	background-image:url(FoodCategories/Timings.jpg);
+	padding: 50px;
+	text-align: right;
+	padding-right: 25px;
+}
+.heading{
+	font-size: 40px;
+	text-transform: uppercase;
+}
+.heading-days{
+	color: #800000;
+	font-size: 35px;
+}
+.heading-phone{
+	font-size: 25px;
+
+}
+.container-form{
+	padding: 20px 0;
+	margin: 0 auto;
+}
+.heading-yellow{
+	color: #FFD700;
+}
+form{
+	display: grid;
+	grid-row-gap: 20px;
+}
+form p{
+	color: #800000;
+	font-weight: 600;
+}
+.form-field{
+	display: flex;
+	justify-content: space-between;
+}
+input{
+	padding: 10px 15px;
+}
+.btn{
+	background-color: #800000;
+	border-radius: 20px;
+	border: none;
+	color: #fff;
+	padding: 10px 20px;
+	width: 100%;
+	font-weight: 600;
+	text-transform: uppercase;
+	cursor: pointer;
+	box-shadow: 7px 10px 12px rgba(0,0,0,0.1);
+	transition: all 0.3s;
+}
+.btn:hover{
+	transform: scale(1.03);
+	box-shadow: 10px 12px 15px rgba(0,0,0,0.3);	
+}

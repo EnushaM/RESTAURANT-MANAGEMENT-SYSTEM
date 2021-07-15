@@ -1,0 +1,142 @@
+*{
+	padding: 0;
+	font-family: sans-serif;
+}
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(Pictures/59856c16703c047cbeae7e7f1882964e.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+nav{
+	width: 85%;
+	margin: auto;
+	padding-top: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	width: 150px;
+	cursor: pointer;
+}
+.menu{
+	cursor: pointer;
+}
+.text-box{
+	width: 60%;
+	margin: 20px auto 0;
+	color: #fff;
+	text-align: center;
+}
+.text-box h1{
+	margin-bottom: 30px;
+	font-size: 60px;
+	color: red;
+}
+span{
+	font-family:'Lobster',cursive;
+}
+.text-box p{
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 40px;
+}
+.text-box button{
+	width: 220px;
+	padding: 12px 0;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 5px;
+	outline: none;
+	border: 2px solid #fff;
+	background: transparent;
+	cursor: pointer;
+}
+.sidebar{
+	height: 280px;
+	width:60px ;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #fff;
+	border-radius: 5px;
+	position: absolute;
+	top: 50%;
+	right: 50px;
+	transform: translateY(-50%);
+}
+.icon-box{
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: flex-end;
+	margin: 5px auto;
+}
+.side-text{
+	min-width: 0px;
+	height: 100%;
+	background: #f44336;
+	margin-right: 0;
+	line-height: 0;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px 0 0 5px;
+	overflow: hidden;
+	transition: 0.5s;
+}
+.icon{
+	min-width: 50px;
+	height: 100%;
+	border-radius: 5px;
+	cursor: pointer;
+	text-align: center;
+}
+.fa{
+	font-size: 20px;
+	color: #f44336;//
+	line-height: 50px;
+	margin-top: 10px;  
+	margin-bottom: 10px;
+}
+.icon-box:hover .icon{
+	background: #f44336;
+}
+.icon-box:hover .fa{
+	color: #fff;
+}
+.icon-box:hover .side-text{
+	min-width: 140px;
+}
+.footer{
+	font-size: 16pt;
+	text-align: center;
+	padding-bottom: 10px;
+	color: red;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.grid{
+	margin: 80px;
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+	grid-gap: 30px;
+	align-items: center;
+}
+.grid > article{
+	backround: transparent;
+	border: none;
+	box-shadow: 2px 2px 6px 0px rgba(0,0,0,0);
+	border-radius: 20px;
+	text-align: center;
+	width: 250px;
+	transition: transform .3s;
+}
+.g rid > article:hover{
+	transform: translateY(5px);
+	box-shadow: 2px 2px 6px 0px rgba(0,0,0,0);
+}
